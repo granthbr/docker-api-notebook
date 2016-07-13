@@ -1,0 +1,23 @@
+{
+  "application": {
+    "url": "http://localhost:3000"
+  },
+  "plugins": {
+    "ramlClient": {
+      "oauth2": {
+        "https://github.com/login/oauth/authorize": {
+          "scopes": ["user", "public_repo", "repo:status", "notifications", "gist"],
+          "clientId": "granthbr",
+          "clientSecret": "GHr0tt56"
+        }
+      }
+    },
+    "proxy": {
+      "url": "/proxy"
+    },
+    "github": {
+      "clientId": "granthbr",
+      "clientSecret": "GHr0tt56"
+    }
+  }
+}

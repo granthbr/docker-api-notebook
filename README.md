@@ -16,7 +16,7 @@ Clone the repo if you want the Dockerfile and customize the build. Or just run i
 * Build
 	* sudo docker build -t granthbr/docker-api-notebook .
 * Run
-	* sudo docker run -p 8162:3000 -d --name ramlDesigner granthbr/docker-api-notebook grunt
+	* sudo docker run -p 8162:3000 -d --name apiNotebook granthbr/docker-api-notebook grunt
 	
 	
 # How to access the notebook
